@@ -1,0 +1,219 @@
+{
+    "info": {
+        "description": null,
+        "url": null,
+        "version": null,
+        "year": 2024,
+        "contributor": null,
+        "date_created": "2024-08-29 23:01:37.074105"
+    },
+    "licenses": [
+        {
+            "url": null,
+            "id": 0,
+            "name": null
+        }
+    ],
+    "images": [
+        {
+            "license": 0,
+            "url": null,
+            "file_name": "JPEGImages/metal27.jpg",
+            "height": 384,
+            "width": 512,
+            "date_captured": null,
+            "id": 0
+        },
+        {
+            "license": 0,
+            "url": null,
+            "file_name": "JPEGImages/cardboard132.jpg",
+            "height": 384,
+            "width": 512,
+            "date_captured": null,
+            "id": 1
+        },
+        {
+            "license": 0,
+            "url": null,
+            "file_name": "JPEGImages/glass7.jpg",
+            "height": 384,
+            "width": 512,
+            "date_captured": null,
+            "id": 2
+        },
+        {
+            "license": 0,
+            "url": null,
+            "file_name": "JPEGImages/plastic31.jpg",
+            "height": 384,
+            "width": 512,
+            "date_captured": null,
+            "id": 3
+        },
+        {
+            "license": 0,
+            "url": null,
+            "file_name": "JPEGImages/paper18.jpg",
+            "height": 384,
+            "width": 512,
+            "date_captured": null,
+            "id": 4
+        }
+    ],
+    "type": "instances",
+    "annotations": [
+        {
+            "id": 0,
+            "image_id": 0,
+            "category_id": 1,
+            "segmentation": [
+                [
+                    138.43243243243245,
+                    46.05405405405405,
+                    428.97297297297297,
+                    46.05405405405405,
+                    428.97297297297297,
+                    341.5495495495495,
+                    138.43243243243245,
+                    341.5495495495495
+                ]
+            ],
+            "area": 86136.0,
+            "bbox": [
+                138.0,
+                46.0,
+                291.0,
+                296.0
+            ],
+            "iscrowd": 0
+        },
+        {
+            "id": 1,
+            "image_id": 1,
+            "category_id": 4,
+            "segmentation": [
+                [
+                    88.8828828828829,
+                    68.57657657657657,
+                    383.027027027027,
+                    68.57657657657657,
+                    383.027027027027,
+                    308.66666666666663,
+                    88.8828828828829,
+                    308.66666666666663
+                ]
+            ],
+            "area": 71336.0,
+            "bbox": [
+                88.0,
+                68.0,
+                296.0,
+                241.0
+            ],
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 2,
+            "category_id": 2,
+            "segmentation": [
+                [
+                    154.1981981981982,
+                    48.75675675675675,
+                    446.54054054054046,
+                    48.75675675675675,
+                    446.54054054054046,
+                    382.0900900900901,
+                    154.1981981981982,
+                    382.0900900900901
+                ]
+            ],
+            "area": 98155.0,
+            "bbox": [
+                154.0,
+                48.0,
+                293.0,
+                335.0
+            ],
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 3,
+            "category_id": 0,
+            "segmentation": [
+                [
+                    170.4144144144144,
+                    45.15315315315315,
+                    395.18918918918916,
+                    45.15315315315315,
+                    395.18918918918916,
+                    267.6756756756757,
+                    170.4144144144144,
+                    267.6756756756757
+                ]
+            ],
+            "area": 50398.0,
+            "bbox": [
+                170.0,
+                45.0,
+                226.0,
+                223.0
+            ],
+            "iscrowd": 0
+        },
+        {
+            "id": 4,
+            "image_id": 4,
+            "category_id": 3,
+            "segmentation": [
+                [
+                    8.702702702702723,
+                    64.52252252252252,
+                    387.08108108108104,
+                    64.52252252252252,
+                    387.08108108108104,
+                    365.4234234234234,
+                    8.702702702702723,
+                    365.4234234234234
+                ]
+            ],
+            "area": 114760.0,
+            "bbox": [
+                8.0,
+                64.0,
+                380.0,
+                302.0
+            ],
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": null,
+            "id": 0,
+            "name": "bottle"
+        },
+        {
+            "supercategory": null,
+            "id": 1,
+            "name": "metal"
+        },
+        {
+            "supercategory": null,
+            "id": 2,
+            "name": "glass"
+        },
+        {
+            "supercategory": null,
+            "id": 3,
+            "name": "paper"
+        },
+        {
+            "supercategory": null,
+            "id": 4,
+            "name": "cardboard"
+        }
+    ]
+}
